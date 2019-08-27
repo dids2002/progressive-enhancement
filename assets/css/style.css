@@ -32,7 +32,7 @@ a:hover{
 a:visited{
   text-decoration: underline;
 }
-blockquote{
+q{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -41,6 +41,7 @@ blockquote{
   padding-top: 80px;
   padding-bottom: 80px;
   border-left: 3px solid rgb(113, 17, 17);
+  display: block;
 }
 blockquote p{
   font-size: 1.6rem;
@@ -48,7 +49,9 @@ blockquote p{
 q{
   font-style: italic;
 }
-
+section{
+  clear: both;
+}
 .farmer{
   border-left: 3px solid rgb(221, 224, 36);
 }
