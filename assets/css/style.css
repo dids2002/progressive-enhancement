@@ -11,12 +11,16 @@ body{
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
 p{
   font-family: Georgia, serif;
   font-size: 16px;
   letter-spacing: 0.3px;
   color: rgb(4, 12, 32);
+}
+p:first-of-type{
+  font-weight: bold;
 }
 a{
   color: red;
@@ -61,4 +65,40 @@ header > h1{
 .bad{
   text-transform: capitalize;
   color: red;
+}
+.grey{
+  background-color: grey;
+}
+.white{
+  background-color: white;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  padding-left: 60px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+ul li:first-child{
+  background-image: url(../img/bien.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  vertical-align: middle;
+}
+ul li:nth-child(2){
+  background-image: url(../img/mal.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+ul li:nth-child(3){
+  background-image: url(../img/chat.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+img{
+  float: left;
+  margin-right: 20px;
 }
