@@ -97,7 +97,6 @@ section{
   clear: both;
   margin-top: 40px;
 }
-/* ////////////////////// Section Intro ////////////////////////*/
 section.intro h2{
   margin-bottom: 0;
 }
@@ -110,8 +109,6 @@ section.intro figure{
   float: right;
   margin-left: 20px;
 }
-
-/* ////////////////////// ul ////////////////////////*/
 ul{
   margin-bottom: 30px;
 }
@@ -136,7 +133,6 @@ ul li:nth-child(3){
   background-repeat: no-repeat;
   background-position: left;
 }
-/* ////////////////////// Table ////////////////////////*/
 table{
   border: 2px solid rgb(200, 200, 200);
 }
@@ -154,7 +150,6 @@ tr:nth-child(even){
 tr:nth-child(odd){
   background-color: white;
 }
-/* ////////////////////// Footer ////////////////////////*/
 footer{
   margin-top: 50px;
   color: #FFF;
