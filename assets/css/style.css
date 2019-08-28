@@ -19,9 +19,6 @@ p{
   letter-spacing: 0.3px;
   color: rgb(4, 12, 32);
 }
-p:first-of-type{
-  font-weight: bold;
-}
 a{
   color: red;
   text-decoration: none;
@@ -40,17 +37,10 @@ q{
   padding-left: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
-  border-left: 3px solid rgb(113, 17, 17);
   display: block;
-}
-blockquote p{
-  font-size: 1.6rem;
-}
-q{
   font-style: italic;
-}
-section{
-  clear: both;
+  font-size: 1.6rem;
+
 }
 .farmer{
   border-left: 3px solid rgb(221, 224, 36);
@@ -58,6 +48,13 @@ section{
 .villagers{
   border-left: 3px solid rgb(245, 43, 140);
 }
+q{
+
+}
+section{
+  clear: both;
+}
+
 header > h1{
   background-color: rgb(251, 255, 47);
 }
@@ -104,4 +101,5 @@ ul li:nth-child(3){
 img{
   float: left;
   margin-right: 20px;
+  width: 300px;
 }
