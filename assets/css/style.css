@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 html{
   font-size: 16px;
 }
@@ -13,14 +17,18 @@ body{
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
 }
+h1{
+  margin-top: 30px;
+}
 p{
-  font-family: Georgia, serif;
   font-size: 16px;
   letter-spacing: 0.3px;
   color: rgb(4, 12, 32);
+  margin-bottom: 20px;
 }
+
 a{
-  color: red;
+  color: rgb(236, 116, 40);
   text-decoration: none;
 }
 a:hover{
@@ -29,18 +37,41 @@ a:hover{
 a:visited{
   text-decoration: underline;
 }
-q{
+figure{
+  margin-bottom: 40px;
+}
+figcaption{
+  display: block;
+  clear: both;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+blockquote{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  border-left: 3px solid rgb(201, 27, 3);
   background: rgb(244, 244, 244);
-  padding-left: 30px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 30px 80px 30px 80px;
+  margin: 80px auto 80px auto;
   display: block;
   font-style: italic;
+}
+blockquote p{
   font-size: 1.6rem;
-
+}
+q{
+  background: rgb(244, 244, 244);
+  padding: 30px;
+  display: block;
+  width: 50%;
+  margin: 60px auto 60px auto;
+  font-style: italic;
+  font-size: 1.6rem;
 }
 .farmer{
   border-left: 3px solid rgb(221, 224, 36);
@@ -48,13 +79,21 @@ q{
 .villagers{
   border-left: 3px solid rgb(245, 43, 140);
 }
-q{
-
-}
 section{
   clear: both;
+  margin-top: 40px;
 }
-
+section.intro img{
+  float: left;
+  margin-right: 20px;
+  width: 600px;
+}
+section.story img{
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
 header > h1{
   background-color: rgb(251, 255, 47);
 }
@@ -65,12 +104,6 @@ header > h1{
 .bad{
   text-transform: capitalize;
   color: red;
-}
-.grey{
-  background-color: grey;
-}
-.white{
-  background-color: white;
 }
 ul{
   margin: 0;
@@ -98,8 +131,24 @@ ul li:nth-child(3){
   background-repeat: no-repeat;
   background-position: left;
 }
-img{
-  float: left;
-  margin-right: 20px;
-  width: 300px;
+
+table{
+  border: 2px solid rgb(200, 200, 200);
+}
+table caption{
+  padding: 10px;
+  caption-side: bottom;
+  font-size: 0.7rem;
+}
+th, td{
+  padding: 10px;
+}
+.grey{
+  background-color: rgb(235, 235, 235);
+}
+.white{
+  background-color: white;
+}
+footer{
+  margin: 30px 0 30px 0;
 }
